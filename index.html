@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Notes App</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+
+<div class="app-wrapper">
+
+  <header class="app-header">
+    <div class="header-icon"><img src="logo.png" alt="" style="width: 40px; height: 40px; border-radius:50px"></div>
+    <div>
+      <h1 class="app-title" style="font-family: georgia; font-weight: 700">NoteD</h1>
+      <p class="app-subtitle">Your personal notebook</p>
+    </div>
+    <span class="note-count-badge" id="note-count">0 notes</span>
+  </header>
+
+  <div class="form-card" id="form-card">
+    <h2 id="form-heading" style="font-family: georgia">New Note</h2>
+    <div class="form-row">
+      <div class="form-group full">
+        <label for="note-title-input">Title <span style="font-weight:300;text-transform:none">(optional)</span></label>
+        <input type="text" id="note-title-input" placeholder="Give your note a title…" maxlength="100"/>
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="note-content-input">Content</label>
+      <textarea id="note-content-input" placeholder="Write something…"></textarea>
+    </div>
+    <div class="form-actions">
+      <button class="btn btn-ghost" id="cancel-btn" style="display:none">Cancel</button>
+      <button class="btn btn-primary" id="save-btn" style="color: black">
+        <span >＋</span> Save Note
+      </button>
+    </div>
+  </div>
+
+  <div id="notes-container">
+  
+  </div>
+
+  <div class="pagination" id="pagination" style="display:none">
+    <button class="btn btn-ghost" id="prev-btn">← Prev</button>
+    <div class="page-numbers" id="page-numbers"></div>
+    <span class="page-info" id="page-info"></span>
+    <button class="btn btn-ghost" id="next-btn">Next →</button>
+  </div>
+
+</div>
+
+<div id="toast"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
