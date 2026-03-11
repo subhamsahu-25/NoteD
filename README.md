@@ -1,13 +1,10 @@
 <div align="center">
 
-# 📝 Notepaper
+# 📝 NoteD
 
 ### A clean, minimal notes app built with pure vanilla web technologies
 
 [![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-Click_Here-black?style=for-the-badge)](your-live-link-here)
-[![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](.)
-[![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](.)
-[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](.)
 
 </div>
 
@@ -15,7 +12,7 @@
 
 ## ✨ Overview
 
-**Notepaper** is a lightweight, no-dependency notes app that runs entirely in the browser. Create, edit, and delete notes with a clean interface — all data is saved to `localStorage` so nothing is lost on refresh.
+**NoteD** is a lightweight, no-dependency notes app that runs entirely in the browser. Create, edit, and delete notes with a clean interface — all data is saved to `localStorage` so nothing is lost on refresh.
 
 ---
 
@@ -42,24 +39,8 @@ notepaper/
 │
 ├── 📄 index.html       ← Markup and page structure
 ├── 🎨 styles.css       ← All styling, variables, animations
-└── ⚙️ app.js           ← All JavaScript logic and state
+└── ⚙️ script.js           ← All JavaScript logic and state
 ```
-
----
-
-## 🚀 Getting Started
-
-No build tools. No installs. No dependencies.
-
-```bash
-# 1. Clone or download the project
-git clone https://github.com/your-username/notepaper.git
-
-# 2. Open in browser
-open index.html
-```
-
-Or just download the zip and open `index.html` directly in any browser.
 
 ---
 
