@@ -4,7 +4,7 @@
 
 ### A clean, minimal notes app built with pure vanilla web technologies
 
-[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-Click_Here-black?style=for-the-badge)](your-live-link-here)
+[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-Click_Here-black?style=for-the-badge)](https://subhamsahu-25.github.io/NoteD/)
 
 </div>
 
